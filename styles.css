@@ -19,6 +19,7 @@ body {
 
 .traco01{
     margin: 0 100px;
+    margin-top: 65px;
 }
 
 
@@ -49,7 +50,9 @@ body {
 .navbar ul li a{
     text-decoration: none
 }
-
+.navbar ul li a:hover{
+    color:#6f00a3;
+}
 /* apresentação */
 .apresentacao{
     margin-top: 13%;
@@ -156,11 +159,14 @@ body {
 }
 .flex{
     display: flex;
-    justify-content: space-around;
+    width: 386px;
+    height: 134px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .tecnologias{
-    padding-bottom: 65px;
     width: 55px;
+    height: 55px;
     margin: 0 6px;
 }
 
